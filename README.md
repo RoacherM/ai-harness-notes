@@ -6,13 +6,15 @@
 
 维护：[@RoacherM](https://github.com/RoacherM) · 由助手 BB 协助撰写与推送。
 
-## 目录约定（按周筛选）
-
-主路径用 **ISO 周**（`YYYY/Www/`），方便按周浏览；文件名仍带 `YYYYMMDD` 便于排序。
+## 目录约定（月 / 周内筛选）
 
 ```text
-YYYY/
-  Www/                          # 例：2026/W38/
+YYYYMM/
+  week1/    # 当月 1–7 日
+  week2/    # 8–14 日
+  week3/    # 15–21 日
+  week4/    # 22–28 日
+  week5/    # 29–31 日（仅有才建）
     YYYYMMDD_简称_论文解读_中文标题.md
     YYYYMMDD_简称_项目解读_中文标题.md
 ```
@@ -21,18 +23,19 @@ YYYY/
 
 ```yaml
 ---
-week: 2026-W38
+month: 202609
+week: 3
 date: 2026-09-16
-type: 项目解读   # 或 论文解读
+type: 项目解读
 slug: RSI-Harness
 ---
 ```
 
-## 周索引
+## 索引
 
-| 周 | 篇目 |
-| --- | --- |
-| [2026-W38](./2026/W38/) | [RSI-Harness](./2026/W38/20260916_RSI-Harness_项目解读_切场景就是切Genome_Pi脚手架的可版本化.md) |
+| 月 | 周 | 篇目 |
+| --- | --- | --- |
+| 202609 | [week3](./202609/week3/) | [RSI-Harness](./202609/week3/20260916_RSI-Harness_项目解读_切场景就是切Genome_Pi脚手架的可版本化.md) |
 
 ## 单篇结构（见 TEMPLATE.md）
 

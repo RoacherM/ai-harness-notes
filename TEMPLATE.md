@@ -1,5 +1,6 @@
 ---
-week: YYYY-Www
+month: YYYYMM
+week: 1
 date: YYYY-MM-DD
 type: 项目解读
 slug: 简称

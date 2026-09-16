@@ -1,5 +1,6 @@
 ---
-week: 2026-W38
+month: 202609
+week: 3
 date: 2026-09-16
 type: 项目解读
 slug: RSI-Harness
