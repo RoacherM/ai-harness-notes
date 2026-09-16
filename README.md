@@ -35,7 +35,7 @@ slug: RSI-Harness
 
 | 月 | 周 | 篇目 |
 | --- | --- | --- |
-| 202609 | [week3](./202609/week3/) | [RSI-Harness](./202609/week3/20260916_RSI-Harness_项目解读_切场景就是切Genome_Pi脚手架的可版本化.md) |
+| 202609 | [week3](./202609/week3/) | [RSI-Harness](./202609/week3/20260916_RSI-Harness_项目解读_切场景就是切Genome_Pi脚手架的可版本化.md) · [ComposeCL](./202609/week3/20260916_ComposeCL_论文解读_持续学习机制组合起来才扛得住百任务记忆.md) |
 
 ## 单篇结构（见 TEMPLATE.md）
 
