@@ -1,3 +1,10 @@
+---
+week: 2026-W38
+date: 2026-09-16
+type: 项目解读
+slug: RSI-Harness
+---
+
 # 切场景就是切 Genome：RSI-Harness 把 Pi 的脚手架收成可版本、可分享的一包
 
 你有没有过这种体验：同一个 coding agent，换一套系统提示、skills、MCP、权限策略，跑出来的效果判若两人。行业里管这套包裹模型的东西叫 harness（脚手架）。大家都承认它重要，也都在调——但这些配置往往散落在 `settings.json`、CLI 参数和「我记得上次那个 prompt 挺管用」里：**没法 diff、没法交接、换机器就漂，更谈不上复现。**
