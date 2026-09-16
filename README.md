@@ -2,7 +2,7 @@
 
 面向 **AI coding-agent / skills / harness / MCP** 的中文深度归档。
 
-风格对齐 [shibing624/ai-paper-analysis](https://github.com/shibing624/ai-paper-analysis)：写清楚机制与判断，不是链接清单或 README 翻译。
+文风对齐 [shibing624/ai-paper-analysis](https://github.com/shibing624/ai-paper-analysis)：钩子标题 → 体验开场 → 核心摘要 → 信息卡 → 带 emoji 的展开章节 →「我的判断」收束。写机制与判断，不是链接清单或 README 翻译。
 
 维护：[@RoacherM](https://github.com/RoacherM) · 由助手 BB 协助撰写与推送。
 
@@ -14,20 +14,13 @@ YYYYMM/
   YYYYMMDD_简称_项目解读_中文标题.md
 ```
 
-- **论文解读**：有 arXiv / 会议稿等正式出处
-- **项目解读**：开源 harness / skills / MCP / agent 产品与协议
+## 单篇结构（见 TEMPLATE.md）
 
-## 写作原则
-
-1. 先给决策向结论（值不值得继续跟）
-2. 说清「它实际在做什么」和关键机制
-3. 对照个人栈（MMP / Wayne-Skills / DeepSeek harness / ACP 等）写可借鉴点
-4. 标明局限与可忽略部分
-5. 禁止大段粘贴 README / 纯链接列表
-
-## 索引
-
-见各月目录；新文默认放在当月文件夹。
+1. 钩子标题 + 「你有没有过这种体验」开场 + 看完感受  
+2. `## 核心摘要`（整段，可含关键数字）  
+3. `## 论文信息` / `## 项目信息`  
+4. `---` 后用 `🎯🏗️🧪📈🔬🤔` 等章节展开  
+5. 以 `## 🤔 我的判断` 收束；文末固定一句互动 footer  
 
 ## License
 
