@@ -69,7 +69,7 @@ UniM-90（UniM 固定 90 例，覆盖七模态及交错组合；与任一 agent 
 2. DEG + Asset Registry 把多资产工作流做成可调度状态机；
 3. UniM-90 上支持率与结构分的跃迁，证明缺口主要在编排层而非「再换一个更强聊天模型」。
 
-局限：偏生成/内容生产场景，对 SWE / 长程工具 agent 的迁移要另证；27 Skills 覆盖是策展清单不是开放世界；缺少与「纯提示拼工具」或「单一 Omni 模型」的成本–质量全对比。对 Byron：**(1)** MMP Manifest 可直接对标四层：Skills 条目 / MCP 桥 / provider 绑定 / 制品账本；**(2)** 写 skill 时强制「语义 I/O + 可扩展下层」，禁止在正文写死厂商 API；**(3)** 跨轮复用优先 **asset_id 合同**，别只靠聊天摘要记文件名；**(4)** 接 [EvoSkill-GUI](../202609/week3/20260918_EvoSkill-GUI_论文解读_技能不是静态文档_部署时无训练自进化.md) / [Paper2Agent](../202609/week4/20260924_Paper2Agent_论文解读_论文别只当PDF_锁死验证过的MCP工具比自由写代码更可靠.md)：Omni-IO 补的是**多模态制品工作流的 harness 骨架**。
+局限：偏生成/内容生产场景，对 SWE / 长程工具 agent 的迁移要另证；27 Skills 覆盖是策展清单不是开放世界；缺少与「纯提示拼工具」或「单一 Omni 模型」的成本–质量全对比。对 Byron：**(1)** MMP Manifest 可直接对标四层：Skills 条目 / MCP 桥 / provider 绑定 / 制品账本；**(2)** 写 skill 时强制「语义 I/O + 可扩展下层」，禁止在正文写死厂商 API；**(3)** 跨轮复用优先 **asset_id 合同**，别只靠聊天摘要记文件名；**(4)** 接 [EvoSkill-GUI](../../202609/week3/20260918_EvoSkill-GUI_论文解读_技能不是静态文档_部署时无训练自进化.md) / [Paper2Agent](../../202609/week4/20260924_Paper2Agent_论文解读_论文别只当PDF_锁死验证过的MCP工具比自由写代码更可靠.md)：Omni-IO 补的是**多模态制品工作流的 harness 骨架**。
 
 一句话收束：**要 omni，不必先重训 host——用分层 Skills、MCP 与资产注册表，把已有 agent 编排成可演化的多模态生产线。**
 

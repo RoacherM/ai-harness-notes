@@ -66,7 +66,7 @@ Agent 叙事已从「单模型加工具」走到「专用 harness 吃透一域�
 2. MAOB 把编排质量从端到端分数里拆出来，Exact Match +10 pp 级差距可读；
 3. ACP / OpenClaw / Claude Code 同框，直接服务多脚手架桥接叙事。
 
-局限：端到端「新任务覆盖」需更强单体对照与成本会计；组记忆与部分 Oncall 数字偏内部；超长理论附录工程可读性一般。对 Byron：**(1)** MMP / Pi 若要接多 harness，优先抄「能力标签 + 派工前校验 + 制品路径交接」，而不是再堆角色 prompt；**(2)** OpenClaw/ACP 路径已在 Raven 预设里——桥接层应暴露 stateful/files/progress，而不是只透传字符串；**(3)** Skill Forge 方向对齐 skills distill：失败轨迹 → 可检索程序，但要配**完成合同**（judge/evals）防「看起来像技能」；**(4)** HarnessBank 式进化适合当 control-plane 外环：冻结骨干、改策略面、gene bank 按病理分格。接上周 [Meta-Harness](../202609/week3/20260918_Meta-Harness_论文解读_脚手架也能端到端搜_完整轨迹文件系统比压缩反馈狠.md) / [Harness-Design](../202609/week3/20260918_Harness-Design_论文解读_脚手架不是一整块_组件要按模型和预算配.md)：Raven 补的是**跨异构执行器的编排与复用操作系统**。
+局限：端到端「新任务覆盖」需更强单体对照与成本会计；组记忆与部分 Oncall 数字偏内部；超长理论附录工程可读性一般。对 Byron：**(1)** MMP / Pi 若要接多 harness，优先抄「能力标签 + 派工前校验 + 制品路径交接」，而不是再堆角色 prompt；**(2)** OpenClaw/ACP 路径已在 Raven 预设里——桥接层应暴露 stateful/files/progress，而不是只透传字符串；**(3)** Skill Forge 方向对齐 skills distill：失败轨迹 → 可检索程序，但要配**完成合同**（judge/evals）防「看起来像技能」；**(4)** HarnessBank 式进化适合当 control-plane 外环：冻结骨干、改策略面、gene bank 按病理分格。接上周 [Meta-Harness](../../202609/week3/20260918_Meta-Harness_论文解读_脚手架也能端到端搜_完整轨迹文件系统比压缩反馈狠.md) / [Harness-Design](../../202609/week3/20260918_Harness-Design_论文解读_脚手架不是一整块_组件要按模型和预算配.md)：Raven 补的是**跨异构执行器的编排与复用操作系统**。
 
 一句话收束：**更强的单体 harness 越难手搓——Raven 用「Harness of Harnesses」把 Claude Code / OpenClaw 等变成可调度、可进化、可技能化的组合单元。**
 

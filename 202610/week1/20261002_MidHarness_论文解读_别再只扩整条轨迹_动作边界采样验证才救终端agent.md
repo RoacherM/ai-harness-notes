@@ -64,7 +64,7 @@ Mid-Harness 在每一步对同一交互历史采样 \(N\) 个候选动作，经 
 2. 用前沿 verifier 标定「候选覆盖上界」，再诚实展示自验证与蒸馏的回收比例；
 3. 证明动作缩放可与 BoT/SR 叠加并改善成本–成功率前沿。
 
-局限：主数字绑 TMAX + TerminalBench-Lite；Sol 作 oracle 贵；pairwise 成本陡；蒸馏仍卡在命令语义/可行性。对 Byron：**(1)** MMP / Pi 的 control-plane 可抄「generate wrapper 里 sample+verify」，ambient 仍关、Manifest 只加一层 Mid；**(2)** 弱 judge 时别盲目加宽 \(N\)——先校准 verifier（对齐上周 [LLM-as-Judge](../202609/week3/20260917_LLM-as-Judge_论文解读_裁判只是评测栈的一层如何搭闭环.md) 的「代码检查先于 LLM 裁判」）；**(3)** 与 [HybridCUA](./20261001_HybridCUA_论文解读_光给shell不够_学会何时用CLI才不在OSWorld掉分.md) 对照：那边学「何时用 CLI」，这边学「执行前挡坏命令」——都是 sandbox 里的策略面，不是更大基座；**(4)** 接 [Meta-Harness](../202609/week3/20260918_Meta-Harness_论文解读_脚手架也能端到端搜_完整轨迹文件系统比压缩反馈狠.md)：搜整个 harness 贵，Mid-Harness 先把最贵的不可逆动作闸住。
+局限：主数字绑 TMAX + TerminalBench-Lite；Sol 作 oracle 贵；pairwise 成本陡；蒸馏仍卡在命令语义/可行性。对 Byron：**(1)** MMP / Pi 的 control-plane 可抄「generate wrapper 里 sample+verify」，ambient 仍关、Manifest 只加一层 Mid；**(2)** 弱 judge 时别盲目加宽 \(N\)——先校准 verifier（对齐上周 [LLM-as-Judge](../../202609/week3/20260917_LLM-as-Judge_论文解读_裁判只是评测栈的一层如何搭闭环.md) 的「代码检查先于 LLM 裁判」）；**(3)** 与 [HybridCUA](./20261001_HybridCUA_论文解读_光给shell不够_学会何时用CLI才不在OSWorld掉分.md) 对照：那边学「何时用 CLI」，这边学「执行前挡坏命令」——都是 sandbox 里的策略面，不是更大基座；**(4)** 接 [Meta-Harness](../../202609/week3/20260918_Meta-Harness_论文解读_脚手架也能端到端搜_完整轨迹文件系统比压缩反馈狠.md)：搜整个 harness 贵，Mid-Harness 先把最贵的不可逆动作闸住。
 
 一句话收束：**终端失败常毁在已执行的坏动作——Mid-Harness 证明：在 model 与 harness 之间缩放「采样+验证」，比只加宽整轨重跑更对症，且强 verifier 才解锁候选里的替代动作。**
 

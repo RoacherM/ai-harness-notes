@@ -62,7 +62,7 @@ Agent 涨分叙事常在「更强 Target」与「更多 task skills」两端摇�
 2. 用「直接交付同一银行」做语义对照，钉死编译增益；
 3. 同模自演化与组件消融给出可抄的工程优先级（先 controller）。
 
-局限：强 Builder 依赖、成本会计不全、精炼非单调尚无自动 gate。对 Byron：**(1)** 技能工程先问「这条是给解题者还是给搭台者」——MMP Manifest 里 Rules/Skills 与「脚手架生成策略」应分桶；**(2)** 对齐 [Meta-Harness](../202609/week3/20260918_Meta-Harness_论文解读_脚手架也能端到端搜_完整轨迹文件系统比压缩反馈狠.md) / [Harness-Design](../202609/week3/20260918_Harness-Design_论文解读_脚手架不是一整块_组件要按模型和预算配.md)：那边搜实现，这边学**原则银行再即时编译**；**(3)** 接 [Raven](./20261001_Raven_论文解读_别再手搓更强harness_Harness的Harness才把异构agent当可组合单元.md) 的 Host：Host 需要的正是 when/provide 式能力标签，而不是把 playbook 原文灌给每个工人；**(4)** 银行更新必须配开发集置信与回滚——否则第二 pass 会把 Qwen 那种回归写进「永久真理」。
+局限：强 Builder 依赖、成本会计不全、精炼非单调尚无自动 gate。对 Byron：**(1)** 技能工程先问「这条是给解题者还是给搭台者」——MMP Manifest 里 Rules/Skills 与「脚手架生成策略」应分桶；**(2)** 对齐 [Meta-Harness](../../202609/week3/20260918_Meta-Harness_论文解读_脚手架也能端到端搜_完整轨迹文件系统比压缩反馈狠.md) / [Harness-Design](../../202609/week3/20260918_Harness-Design_论文解读_脚手架不是一整块_组件要按模型和预算配.md)：那边搜实现，这边学**原则银行再即时编译**；**(3)** 接 [Raven](./20261001_Raven_论文解读_别再手搓更强harness_Harness的Harness才把异构agent当可组合单元.md) 的 Host：Host 需要的正是 when/provide 式能力标签，而不是把 playbook 原文灌给每个工人；**(4)** 银行更新必须配开发集置信与回滚——否则第二 pass 会把 Qwen 那种回归写进「永久真理」。
 
 一句话收束：**经验别只会写成给 Target 的讲义——MetaSkill 证明：冻结权重下，让 Builder 学会元技能并编译成任务级 harness，比把同一银行直接塞给解题者更值钱。**
 

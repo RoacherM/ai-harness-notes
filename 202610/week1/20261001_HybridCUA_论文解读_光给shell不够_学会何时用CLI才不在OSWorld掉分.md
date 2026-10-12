@@ -64,7 +64,7 @@ GUI-only CUA 通用但长序列易级联出错；GUI+应用 API（ToolCUA / Ultr
 2. when/how 两级奖励拆得干净，消融可读；
 3. 统一动作语法与跨 MCP / Windows 迁移，服务「少焊应用 API」的工程路线。
 
-局限：标签与环境依赖；相对更大纯 GUI 专家仍有差距；代码/主页链接在 preprint 中以将释出为主。对 Byron：**(1)** coding-agent / CUA 沙箱默认同时挂 GUI 与 shell 时，必须有**接口路由评测切片**（该用 CLI 的任务 vs 不该用），别只看总分；**(2)** 动作 schema 优先统一可执行面（一个 bash / 一个 runner），工具名分裂会吃掉策略；**(3)** skills 可先服务「造 CLI only 轨迹」的文档蒸馏，再进在线策略；**(4)** judge/evals：步级 shell 失败信号几乎免费，应进 harness 信用分配，而不是只等任务末 \(R_{\mathrm{acc}}\)。接 [RecreationWorld](../202609/week4/20260922_RecreationWorld_论文解读_对着跑着的参考应用重写一遍_混合CUA才算真干活.md)（混合 CUA 验真干活）与本周 Raven（多 harness 编排）：HybridCUA 补的是**单工作站上 GUI 与 CLI 的可学习编排**。
+局限：标签与环境依赖；相对更大纯 GUI 专家仍有差距；代码/主页链接在 preprint 中以将释出为主。对 Byron：**(1)** coding-agent / CUA 沙箱默认同时挂 GUI 与 shell 时，必须有**接口路由评测切片**（该用 CLI 的任务 vs 不该用），别只看总分；**(2)** 动作 schema 优先统一可执行面（一个 bash / 一个 runner），工具名分裂会吃掉策略；**(3)** skills 可先服务「造 CLI only 轨迹」的文档蒸馏，再进在线策略；**(4)** judge/evals：步级 shell 失败信号几乎免费，应进 harness 信用分配，而不是只等任务末 \(R_{\mathrm{acc}}\)。接 [RecreationWorld](../../202609/week4/20260922_RecreationWorld_论文解读_对着跑着的参考应用重写一遍_混合CUA才算真干活.md)（混合 CUA 验真干活）与本周 Raven（多 harness 编排）：HybridCUA 补的是**单工作站上 GUI 与 CLI 的可学习编排**。
 
 一句话收束：**终端不是插件开关——HybridCUA 用混合轨迹与 CLI-aware 奖励，把「何时敲命令」练成和点击同等重要的策略。**
 
