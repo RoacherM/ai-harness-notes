@@ -48,7 +48,7 @@ Skills 已成 coding-agent 工具链标配，但生态默认假设「挂上技�
 
 1. **门控 SU：没 Trigger 就零执行分。** 防止「碰巧做对 / 没用技能」刷榜——这是对技能生态最狠也最必要的一刀。
 2. **双瓶颈独立。** 会触发却不合规，与合规潜力高却不触发，是两类病；修技能文档 vs 修 harness 检索 UX 对症不同。
-3. **Harness 条件化。** CC 利好「会找技能」的模型；Codex 抬触发、却更榨「进门后的持续照做」——和 [Harness-Design](../202609/week3/20260918_Harness-Design_论文解读_脚手架不是一整块_组件要按模型和预算配.md)「组件按模型配」同构。
+3. **Harness 条件化。** CC 利好「会找技能」的模型；Codex 抬触发、却更榨「进门后的持续照做」——和 [Harness-Design](../../202609/week3/20260918_Harness-Design_论文解读_脚手架不是一整块_组件要按模型和预算配.md)「组件按模型配」同构。
 4. **任务结果故意踢出 SU。** 避免「结果对了就当技能会了」——过程合同与交付物解耦。
 5. **构造管线本身可复用。** masked-skill + 对抗审查 + 轨迹回放，是做 skills 评测基础设施的样本，不只是又一张表。
 
@@ -60,7 +60,7 @@ Skills 已成 coding-agent 工具链标配，但生态默认假设「挂上技�
 2. 真实技能 + Docker + 轨迹 rubric，贴近生产 coding-agent；
 3. 明确 skill use 是 harness-conditioned——打脸「只换模型不换脚手架」的排行榜幻觉。
 
-局限：单技能设定；SU 距「可靠」尚远；judge 项需持续标定。对 Byron：**(1)** 星标技能库前先问能否过 Skill-Use 式门控——否则只是收藏夹；**(2)** MMP / Pi 的 Skills 暴露面应区分「目录元数据」与「全文」，并打点 Trigger 率，而不是只看任务绿；**(3)** 双跑 CC vs Codex（或 ACP 多 harness）再谈模型排名，接 [Raven](./20261001_Raven_论文解读_别再手搓更强harness_Harness的Harness才把异构agent当可组合单元.md) 的异构编排；**(4)** 合规/边界项优先确定性检查，LLM judge 垫底——对齐 [LLM-as-Judge](../202609/week3/20260917_LLM-as-Judge_论文解读_裁判只是评测栈的一层如何搭闭环.md) 与 [SkillSpec](../202609/week4/20260923_SkillSpec_论文解读_第一次用Hoare规格验Agent技能_515个近半有缺陷.md) 的规格验技能方向；**(5)** 与今日 [MetaSkill](./20261002_MetaSkill_论文解读_别把技能塞给Target_教Builder学元技能才配得动harness.md) 对照：那边学「如何为 Target 配支援」，这边测「Target 会不会用已配技能」——skills 闭环的上下游。
+局限：单技能设定；SU 距「可靠」尚远；judge 项需持续标定。对 Byron：**(1)** 星标技能库前先问能否过 Skill-Use 式门控——否则只是收藏夹；**(2)** MMP / Pi 的 Skills 暴露面应区分「目录元数据」与「全文」，并打点 Trigger 率，而不是只看任务绿；**(3)** 双跑 CC vs Codex（或 ACP 多 harness）再谈模型排名，接 [Raven](./20261001_Raven_论文解读_别再手搓更强harness_Harness的Harness才把异构agent当可组合单元.md) 的异构编排；**(4)** 合规/边界项优先确定性检查，LLM judge 垫底——对齐 [LLM-as-Judge](../../202609/week3/20260917_LLM-as-Judge_论文解读_裁判只是评测栈的一层如何搭闭环.md) 与 [SkillSpec](../../202609/week4/20260923_SkillSpec_论文解读_第一次用Hoare规格验Agent技能_515个近半有缺陷.md) 的规格验技能方向；**(5)** 与今日 [MetaSkill](./20261002_MetaSkill_论文解读_别把技能塞给Target_教Builder学元技能才配得动harness.md) 对照：那边学「如何为 Target 配支援」，这边测「Target 会不会用已配技能」——skills 闭环的上下游。
 
 一句话收束：**挂上技能只是开始——Skill-Use 证明在 progressive disclosure 下，最强也只到 SU≈0.61，且换 Claude Code / Codex 排名会变：技能使用是 harness 条件化能力。**
 
